@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homepage</title>
+</head>
+<body>
+    <h1>Homepage</h1>
+    <p><a href="https://www.theodinproject.com/about">About The Odin Project</a>
+    This link just opens the specified webpage.</p>
+    
+    <p><a href="https://www.theodinproject.com/about" target="_blank" rel="noopener noreferrer">About The Odin Project</a>
+    This link opens the webpage in a new tab. The noopener value prevents the opened link from gaining access to the webpage from which it was opened.
+    The noreferrer value prevents the opened link from knowing which webpage or resource has a link (or ‘reference’) to it. This is important for security, to prevent phising attacks.</p>
+    
+    <p><a href="./pages/about.html">About</a>
+    This is a relative link - it contains a link to another of our webpages. The other links above are absolute links. We added a `./` at the beginning of the path to state that the path is relative. This prevents potential issues.</p>
+</body>
+</html>
